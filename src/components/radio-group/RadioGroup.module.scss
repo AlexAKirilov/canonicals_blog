@@ -42,6 +42,8 @@
   background: var(--gold, #ffc802);
 }
 
-.item[data-checked="true"] .label {
+//TODO: Add active state for selector
+
+.label:active, .item[data-checked="true"] .label {
   background: var(--gold, #ffc802);
 }
